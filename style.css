@@ -2,12 +2,23 @@
     box-sizing: content-box;
   }
   body{
-    background-image: url(Images/Fondo.jpg);
+    background-image: url(Images/fondo2.gif);
   }
   header{
     background-color: rgba(0, 0, 0, 0.763);
     color: aliceblue;
   }
 main {
-    color: aliceblue;}
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+  display: flex;
+  justify-content:center;
+  align-items:flex-end;
+  flex-direction:row-reverse;
+  align-content:flex-end;
+}
     
