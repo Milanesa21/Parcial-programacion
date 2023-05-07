@@ -1,0 +1,13 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  body{
+    background-image: url(Images/Fondo.jpg);
+  }
+  header{
+    background-color: rgba(0, 0, 0, 0.763);
+    color: aliceblue;
+  }
+main {
+    color: aliceblue;}
+    
