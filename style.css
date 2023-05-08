@@ -25,6 +25,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
     
 footer {
@@ -41,4 +42,13 @@ footer {
 .carousel-img {
   width: 800px;
   height: 500px;
+}
+.carousel-caption {
+  color: rgb(255, 255, 255);
+}
+.card {
+  display: inline-block; /* muestra las tarjetas como elementos en línea */
+  margin-right: 5px; /* establece un margen derecho de 5px para separar las tarjetas */
+  background-color: rgba(0, 0, 0, 0); 
+  color: white;
 }
